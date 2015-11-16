@@ -1,0 +1,337 @@
+
+
+body {
+  font-family: 'Lora', Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 5px;
+  text-align: center;
+  background-size: 100% 100%;
+  margin-top: -3em;
+  margin-right: -1.5em;
+  margin-left: -1em;
+  color: aliceblue;
+  font-weight: 100;
+  letter-spacing: 1.5px;
+  overflow-x:hidden;
+}
+
+/*intro {
+  margin-top: -1em;
+
+}*/
+.gradient {
+
+  /* can be treated like a fallback */
+  /*background-color: wheat;*/
+
+  /* will be "on top", if browser supports it */
+  /*background-image: linear-gradient(darkblue, wheat);*/
+
+  /* these will reset other properties, like background-position, but it does know what you mean */
+  /*background: wheat;
+  background: linear-gradient(darkslategrey, grey);*/
+/*  background: url(http://i1379.photobucket.com/albums/ah144/madelenecampos/IMG_3674_zpsiylplgum.jpg) no-repeat center center scroll;*/
+/*    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;*/
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: auto;
+    width: 100%;
+    opacity: 0.6;
+
+}
+
+h1 {
+  padding-top: 9vw;
+  margin: 1vw;
+  font-family: 'Lora', Helvetica, Arial, sans-serif;
+  font-size: 85px;
+  font-style: normal;
+  font-variant: small-caps;
+  font-weight: 100;
+  line-height: 50px;
+  color: #666699;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  letter-spacing: 1px;
+
+}
+
+h3 {
+  font-family: 'Lora', Helvetica, Arial, sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 100;
+  line-height: 50px;
+  margin: 1vw;
+  padding-bottom: 1vw;
+  color: #666699;
+  letter-spacing: 1px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#main {
+
+  position: relative;
+  overflow: hidden;
+  margin-top:3.5%;
+  padding-bottom:80px;
+
+/*  background-color: #666699;
+  opacity: 0.5;
+  font-family: 'Lora', Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  max-width: 100%;
+  margin: 0;
+  text-align: center;
+  color: aliceblue;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1vw;
+  padding-top: 25px;
+  padding-right: 50px;
+  padding-bottom: 25px;
+  padding-left: 50px;
+  line-height: 12px;
+  letter-spacing: 1.5px;*/
+}
+
+.font {
+  font-style: Hollywood;
+}
+
+.bio {
+  padding:10px 0 10px 0;
+  background-color:#333;
+  opacity: 0.7;
+  border:8px solid #666699;
+}
+
+#main img {
+  position:absolute;
+  left:0;
+  top:0;
+  height:auto;
+  width:auto;
+}
+
+.background_header {
+  width:100% !important;
+  overflow:hidden;
+   opacity: 0.8;
+}
+
+#main p, #main h1, #main h3 {
+  position: relative;
+  z-index: 2;
+  font-weight:400;
+}
+
+#main2 {
+  font-family: 'Lora', Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  max-width: 100%;
+  margin: 1vw;
+  text-align: center;
+  color: aliceblue;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0
+  padding-top: 25px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  line-height: 12px;
+  letter-spacing: 1.5px;
+}
+
+#photo img {
+
+  padding: 20px;
+  position: relative;
+  z-index: 2;
+  border-radius: 60px;
+  max-width: 600px;
+  margin: 0;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 4px;
+  padding-left: 0px;
+
+}
+
+/*ul {
+  border-top: 1px solid beige;
+  padding-top: 43px;
+  width: 40%;
+  margin: 0 auto;
+
+}*/
+
+li {
+  display: inline;
+  width: 658px;
+    padding: 35px;
+    border: 5px;
+    margin: 0;
+
+}
+
+div.content li#grid{
+  display: inline;
+  margin: 0;
+}
+
+
+a {
+  text-decoration: none;
+  color: rgb(0,0,255);
+  opacity: .7;
+}
+
+.links{
+  padding-bottom: 30px;
+  border-bottom: 20px;
+}
+
+.links a:hover {
+
+  color: #666699;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  border-top: 3px solid ##1a004d;
+  text-decoration: none;
+  padding-top: 1vh;
+  font-weight: 300;
+
+}
+
+#social{
+  text-align: center;
+  vertical-align: center;
+}
+.fa {
+  margin-right: 5px;
+  margin-left: 5px;
+  padding-bottom: 4vh;
+}
+
+#projects {
+/*  background-image: url("https://media.giphy.com/media/RuNUupLlP4n3W/giphy.gif");
+*/
+border-bottom :4px solid #666699;
+  background-repeat:no-repeat;
+  background-position: center;
+/*  width: 1725px;
+/**/
+
+}
+
+#email {
+
+  font-family: 'Lora', Helvetica, Arial, sans-serif;
+  font-size: 45px;
+  font-color: black;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 100;
+  line-height: 50px;
+  margin: 1vw;
+  padding-bottom: 11vw;
+  letter-spacing: 1px;
+
+}
+
+#email a {
+  color: white;
+  opacity: 10;
+}
+#email a:hover {
+  color:#666699;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.ProjectPics {
+/*  max-width: 1600px;
+*/  max-height: 500px;
+  display: inline-block;
+  vertical-align: middle;
+  padding-bottom: 20px;
+  margin-top: 3em;
+
+}
+
+ .ProjectPics:hover {
+    background-color: #666699;
+}
+
+/*#ProjectPicTitles {
+  color: black;
+  }*/
+
+  #skills {
+    background-image: url('LAB.jpg');
+    border-bottom :4px solid #666699;
+
+/*    width: 1725px;
+*/
+/* margin-top: -1em;
+    margin-right: 3em;*/
+  }
+
+  #skills h1 {
+    padding-bottom:60px;
+  }
+
+  #skills_content {
+    padding:8px 0 25px 0;
+    color:black;
+  }
+
+  #skills_part2 ul {
+    width:700px;
+  }
+
+
+  .social {
+
+    margin-left: 3vw;
+    margin-right: 3vw;
+    height: 10vmax;
+/*    width: 10vmax;
+*/    opacity: .7;
+
+  }
+
+  .social:hover {
+    opacity: 1;
+  }
+
+#contact {
+  background-image: url('https://media.giphy.com/media/heUpfNZ6HuKY/giphy.gif');
+  background-size:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: -1%;
+/*  height: 800px;
+*//*  width:1100px;
+*//*  width: 1725px;
+*/  }
+
+.row-fluid{
+
+  width: 100%;
+}
