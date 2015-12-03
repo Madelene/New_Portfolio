@@ -17,26 +17,8 @@ body {
   overflow-x:hidden;
 }
 
-/*intro {
-  margin-top: -1em;
-
-}*/
 .gradient {
 
-  /* can be treated like a fallback */
-  /*background-color: wheat;*/
-
-  /* will be "on top", if browser supports it */
-  /*background-image: linear-gradient(darkblue, wheat);*/
-
-  /* these will reset other properties, like background-position, but it does know what you mean */
-  /*background: wheat;
-  background: linear-gradient(darkslategrey, grey);*/
-/*  background: url(http://i1379.photobucket.com/albums/ah144/madelenecampos/IMG_3674_zpsiylplgum.jpg) no-repeat center center scroll;*/
-/*    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;*/
     position: absolute;
     left: 0;
     top: 0;
@@ -81,26 +63,6 @@ h3 {
   overflow: hidden;
   margin-top:3.5%;
   padding-bottom:80px;
-
-/*  background-color: #666699;
-  opacity: 0.5;
-  font-family: 'Lora', Helvetica, Arial, sans-serif;
-  font-weight: 100;
-  max-width: 100%;
-  margin: 0;
-  text-align: center;
-  color: aliceblue;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  vertical-align: middle;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1vw;
-  padding-top: 25px;
-  padding-right: 50px;
-  padding-bottom: 25px;
-  padding-left: 50px;
-  line-height: 12px;
-  letter-spacing: 1.5px;*/
 }
 
 .font {
@@ -174,13 +136,6 @@ h3 {
 
 }
 
-/*ul {
-  border-top: 1px solid beige;
-  padding-top: 43px;
-  width: 40%;
-  margin: 0 auto;
-
-}*/
 
 li {
   display: inline;
@@ -230,13 +185,10 @@ a {
 }
 
 #projects {
-/*  background-image: url("https://media.giphy.com/media/RuNUupLlP4n3W/giphy.gif");
-*/
+
 border-bottom :4px solid #666699;
   background-repeat:no-repeat;
   background-position: center;
-/*  width: 1725px;
-/**/
 
 }
 
@@ -265,8 +217,8 @@ border-bottom :4px solid #666699;
 }
 
 .ProjectPics {
-/*  max-width: 1600px;
-*/  max-height: 500px;
+
+  max-height: 500px;
   display: inline-block;
   vertical-align: middle;
   padding-bottom: 20px;
@@ -278,18 +230,11 @@ border-bottom :4px solid #666699;
     background-color: #666699;
 }
 
-/*#ProjectPicTitles {
-  color: black;
-  }*/
 
   #skills {
     background-image: url('LAB.jpg');
     border-bottom :4px solid #666699;
 
-/*    width: 1725px;
-*/
-/* margin-top: -1em;
-    margin-right: 3em;*/
   }
 
   #skills h1 {
@@ -311,8 +256,7 @@ border-bottom :4px solid #666699;
     margin-left: 3vw;
     margin-right: 3vw;
     height: 10vmax;
-/*    width: 10vmax;
-*/    opacity: .7;
+   opacity: .7;
 
   }
 
@@ -326,12 +270,15 @@ border-bottom :4px solid #666699;
   background-position: center;
   background-repeat: no-repeat;
   margin-top: -1%;
-/*  height: 800px;
-*//*  width:1100px;
-*//*  width: 1725px;
-*/  }
 
-.row-fluid{
+}
+
+.row-fluid {
 
   width: 100%;
+}
+
+@media only screen
+and (min-device-width : 768px) {
+
 }
